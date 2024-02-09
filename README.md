@@ -17,5 +17,5 @@ mandate "sudo apt-get install freeglut3-dev"
 
 ##################
 execution steps 
-gcc opengl_test_circle.c -lGL -lGLU -lglut -lm 
+gcc gl_test_circle.c -lGL -lGLU -lglut -lm 
 ./a.out
